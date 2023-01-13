@@ -1,0 +1,114 @@
+*,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #afafaf;
+}
+a:hover{
+    color: #6eff0eb2;
+}
+li, ul{
+    list-style: none;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #afafaf;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    border: 2px solid #FFFFFF;
+    background: rgb(66, 66, 66);
+    display: flex;
+    padding-right: 30px;
+
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+.header__menu > li{
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    height:60%;
+    border-right: 1px solid #7c7c7c;
+}
+.header__submenu{
+    display: none;
+    position: relative;
+}
+.header__submenu-list{
+    position: absolute;
+    left: -70px;
+    top: 53px;
+    border: 2px solid #FFFFFF;
+    
+}
+.header__submenu-list li{
+    text-align: center;
+    width: 200%;
+    background: rgb(66, 66, 66);
+    padding: 10px;
+   
+
+
+}
+.fa-arrow-right-long{
+    margin-left: 30%;
+    /* color:#FFFFFF; */
+    
+}
+.contacts {
+    display: flex;
+    align-items: center;
+}
+.lan{
+    display: flex;
+        align-items: center;
+        margin: auto ;
+}
+
+.banner{
+    height: 100vh;
+    background: linear-gradient(rgba(47, 48, 58, .4), 
+                rgba(47, 48, 58, .4)), 
+                url(../img/bg.jpg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.banner__title{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+.banner__subtitle{
+    font-size: 25px;
+    text-align: center;
+}
+.banner__btn{
+    padding: 15px 35px;
+    background: rgba(50, 50, 50, 0.833);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.banner__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
