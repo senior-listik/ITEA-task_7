@@ -12,7 +12,7 @@
 .header__logo {
     width: 35%;
     text-align: right;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: -0.05em;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -60,13 +60,16 @@
     padding: 10px 0;
     text-align: center;
     border-top: 2px solid rgb(37, 4, 4);
+    
 }
 
 .header__submenu:hover .header__submenu-list {
-    display: block;
     transition-duration: 5s;
+    display: block;
+    
 }
 
 .header__submenu:hover>a i {
     color: #950505;
+    transition-duration: 5s;
 }
