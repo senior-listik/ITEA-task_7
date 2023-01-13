@@ -1,0 +1,43 @@
+.articles{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(210, 207, 207);
+}
+.article__item{
+    background-color: rgb(132, 115, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article__wrapper{
+    width: 95%;
+    height: 95%;
+    color: #000000;
+    position: relative;
+}
+.article__wrapper .btn{
+    position: absolute;
+    bottom: 0;
+}
+.article__item:nth-child(2){
+    background-color: rgba(0, 0, 0, 0);
+}
+.article__img{
+    width: 100%;
+    height: 370px;
+    background: url(../img/1.jpg) 50%/cover no-repeat;
+}
+.article__item:nth-child(2) .article__img{
+    background: url(../img/2.jpeg) 50%/cover no-repeat;
+}
+.article__item:nth-child(3) .article__img {
+    background: url(../img/lamb.jpg) 50%/cover no-repeat;
+}
+.article__title{
+    margin: 10px 0;
+}
+.article__text{
+    
+}

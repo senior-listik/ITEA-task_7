@@ -31,11 +31,11 @@
     font-size: 25px;
     color:#303030
 }
-.banner .banner__btn{
+.banner .btn{
     margin-top: 70px;
     width: 80%;
 }
-.banner__btn a {
+.btn a {
     background: linear-gradient(87deg, rgba(203, 0, 0, 1) 21%, rgba(244, 0, 255, 0) 100%);
     color: #FFFFFF;
     font-size: 17px;
