@@ -37,39 +37,37 @@
     color: #ffffff;
 }
 
-.fa-bars {
-    color: #FFFFFF;
-}
-
 .header__submenu {
     position: relative;
 }
 
 .header__submenu-list {
     position: absolute;
-    top: 44px;
-    left: -55px;
+    padding-top: 30px;
+    top: 14px;
+    left: -60px;
     display: none;
-    width: 200px;
-    background: rgb(45, 45, 45);
-    transition-duration: 5s;
-
+    width: 250%;
 }
 
 .header__submenu-list li {
     padding: 10px 0;
     text-align: center;
     border-top: 2px solid rgb(37, 4, 4);
+    background: rgb(45, 45, 45);
     
 }
-
+ .header__submenu-list li:hover {
+    transition: 1s;
+    background: rgb(27, 8, 8);
+}
 .header__submenu:hover .header__submenu-list {
-    transition-duration: 5s;
+    transition: 1s;
     display: block;
     
 }
 
 .header__submenu:hover>a i {
     color: #950505;
-    transition-duration: 5s;
+    transition-duration: 3s;
 }
